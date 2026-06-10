@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
     document.body.classList.add("loaded");
 });
 
-fetch("/nav.html")
+fetch("nav.html")
     .then(response => response.text())
     .then(data => {
 
